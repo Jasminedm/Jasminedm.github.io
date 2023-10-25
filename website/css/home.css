@@ -1,0 +1,91 @@
+
+*{
+    font-size: 1rem;
+}
+body{
+background-color: rgb(251, 244, 236);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* ALL SECTIONS */
+section{
+    
+}
+
+/* HEADER */
+.header{
+padding-bottom: 5%;
+}
+.listSect{
+    
+}
+.headUL{
+    display: flex;
+    align-items:flex-end;
+    justify-content:space-around;
+    align-items: center;
+}
+.headList{
+list-style: none;
+padding-right: 4%;
+
+}
+.headImg{
+    width: 25%;
+}
+.headAnchor{
+    width: 10%;
+}
+.aboutContact{
+    
+}
+
+/* NAME */
+.nameSect{
+
+}
+.name{
+font-size: 3em;
+}
+
+/* TITLE HEADERS */
+h1{
+    text-align: center;
+}
+
+/* INTRODUCTION */
+.introduction{
+display: flex;
+}
+.introImgSect{
+    width: 50%;
+}
+.introImg{
+width: 80%;
+border-radius: 50%;
+}
+.introText{
+width: 50%;
+}
+.introP{
+    padding: 4% 2% 0 4%;
+    line-height: 2.5;
+}
+/* ABOUT */
+.about{
+
+}
+.aboutP{
+    padding: 0 4% 4% 4%;
+    text-align: center;
+    line-height: 2.5;
+}
+/* CONTACT US */
+.contactUs{
+
+}
+
+/* FOOTER */
+.footer{
+
+}
