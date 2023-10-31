@@ -1,52 +1,57 @@
 
 *{
     font-size: 1rem;
+    color: antiquewhite;
 }
 body{
-background-color: rgb(251, 244, 236);
-font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+background-color: rgb(16, 1, 34);
+font-family:'Playfair Display', Tahoma, Geneva, Verdana, sans-serif;
+padding: 0 10%;
 }
 
 /* ALL SECTIONS */
 section{
     
 }
+.TopImgGifBanner{
+    
+    
+}   
 
-/* HEADER */
-.header{
-padding-bottom: 5%;
+
+/* NAVBAR */
+.navSect{ 
+background-color: aqua;    
+}
+.navbar{
+
+
 }
 .listSect{
+    display: flex;
+    justify-content: end;
+    padding: 0 20% 0 0;
+}
+.navUL{
+    display: flex;
     
 }
-.headUL{
-    display: flex;
-    align-items:flex-end;
-    justify-content:space-around;
-    align-items: center;
-}
-.headList{
+.navList{
 list-style: none;
-padding-right: 4%;
+
 
 }
 .headImg{
     width: 25%;
 }
-.headAnchor{
-    width: 10%;
+.navAnchor{
+    width: 50%;
 }
 .aboutContact{
     
 }
 
-/* NAME */
-.nameSect{
 
-}
-.name{
-font-size: 3em;
-}
 
 /* TITLE HEADERS */
 h1{
@@ -56,19 +61,16 @@ h1{
 /* INTRODUCTION */
 .introduction{
 display: flex;
+justify-content: end;
+padding: 5% 15% 0 5%;
+
 }
-.introImgSect{
-    width: 50%;
-}
-.introImg{
-width: 80%;
-border-radius: 50%;
-}
+
 .introText{
 width: 50%;
 }
 .introP{
-    padding: 4% 2% 0 4%;
+    padding: 4% 4% 0 4%;
     line-height: 2.5;
 }
 /* ABOUT */
@@ -76,13 +78,42 @@ width: 50%;
 
 }
 .aboutP{
-    padding: 0 4% 4% 4%;
+    padding: 0 8% 4% 8%;
     text-align: center;
     line-height: 2.5;
+}
+.founderTitle{
+    text-align: center;
+}
+.founderImgSect{
+display: flex;
+justify-content: space-between !important;
+padding: 0 5%;
+}
+.founderImgSubSect{
+width: 45%;
+text-align: center;
+padding: 5% 0;
+background-color: rgba(0, 64, 255, 0.3);
+}
+.founderImg{
+    width: 50%;
+    margin: auto;
+}
+.founderP{
+    padding: 0 5% 0 5%;
 }
 /* CONTACT US */
 .contactUs{
 
+}
+.formSect{
+    display: flex;
+    justify-content: space-around;
+}
+.contactForm{
+    width: 36%; 
+    height: 500px;
 }
 
 /* FOOTER */

@@ -5,57 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eSTEAM'd Bytes</title>
     <link rel="icon" href="img/logo.png" >
-    <link rel="stylesheet" href="css/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
     <section>
-        <!-- HEADER -->
-        <section class="header">
-            <section class="listSect">
-                <ul class="headUL">
-                    <li class="headList"><img class="headImg" src="img/logo.png" alt="eSTEAM'd Bytes Logo"></li>
-                    <a class="headAnchor" href="#aboutSect"><li class="headList aboutContact">About Us</li></a>
-                    <a class="headAnchor" href="#contactSect"><li class="headList aboutContact">Contact Us</li></a>
-                </ul>
-            </section>
-        </section>
+        <!-- NAVBAR -->
+        
+            <section class="navSect">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <!-- Container wrapper -->
+                    <div class="container-fluid">
+                      <!-- Toggle button -->
+                      <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#navbarCenteredExample"
+                        aria-controls="navbarCenteredExample"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <i class="fas fa-bars"></i>
+                      </button>
+                  
+                      <!-- Collapsible wrapper -->
+                      <div
+                        class="collapse navbar-collapse justify-content-center"
+                        id="navbarCenteredExample"
+                      >
+                        <!-- Left links -->
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#aboutSect">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#contactSect">Contact Us</a>
+                          </li>
+                          
+                        </ul>
+                        <!-- Left links -->
+                      </div>
+                      <!-- Collapsible wrapper -->
+                    </div>
+                    <!-- Container wrapper -->
+                  </nav>
+                </section>
 
-        <!-- NAME -->
-        <section class="nameSect">
-            
-            <h1 class="name animate__animated animate__tada">eSTEAM'd Bytes</h1>
-        </section>
-
-        <!-- INTRODUCTION -->
-        <section class="introduction">
-            <section class="introImgSect">
-                <img class="introImg" src="img/OIG.lbEG6aq3Oj.jpg" alt="Children Learning Robotics">
-            </section>
-            
-
-            <section class="introText">
-                <p class="introP">eSTEAM’d Bytes is a dynamic and innovative education institution dedicated to providing high-quality STEAM (Science, Technology, Engineering, Arts, and Mathematics) education to students in grades 4 through 12, with a particular focus on underprivileged neighborhoods. Founded by experienced software engineers, Jasmine Moore and Theodore Williams, our mission is to bridge the educational and opportunity gap in STEAM fields for underserved communities while promoting diversity and inclusion.</p>
-            </section>
-        </section>
+                  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100" src="img/eSTEAMd.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="img/eSTEAM‘d.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" src="img/eSTEAMd.png" alt="Third slide">
+                        </div>
+                      </div>
+                    </div>
+        
+    
         <!-- ABOUT US -->
         <section class="about" id="aboutSect">
             <h1>About Us</h1>
             <p class="aboutP">eSTEAM’d Bytes is on a mission to empower the next generation of leaders from underprivileged neighborhoods, grades 4 through 12, by providing them with access to cutting-edge STEAM education. We leverage accredited curriculums to equip our students with not only essential skills but also industry-recognized certifications, opening doors to limitless STEAM-related opportunities. As a black and women-owned business we are dedicated to bridging the diversity gap in STEAM fields and nurturing young minds to become innovators and changemakers. Our founders, experienced software engineers, bring their passion for STEAM and teaching to every classroom, ensuring that every student achieves their full potential and a brighter future.</p>
         </section>
+            
+            <h3 class="founderTitle">Founders</h3>
+
+            <section class="founderImgSect">
+
+                <section class="founderImgSubSect card">
+                    <img class="founderImg card-img-top" src="img/Jheadshot.jpg" alt="Photo of Jasmine Moore">
+                    <section class="card-body">
+                        <h4>Jasmine Moore (Jazzy Engineer)</h4>
+                        <p class="founderP card-text">With a background in software engineering and a graduate of the Resilient Coders Bootcamp, Jasmine Moore has dedicated her career to not only mastering the art of coding but also giving back to her community. She currently serves as a mentor in Resilient Coders' programs, guiding new cohorts, facilitating hackathons, and curating wellness workshops. Her journey from student to mentor showcases her commitment to empowering individuals through technology.</p>
+                    </section>
+                </section>
+
+                <section class="founderImgSubSect card">
+                    <img class="founderImg card-img-top" src="img/Theadshot.jpg" alt="Photo of Theodore Williams">
+                    <section class="card-body">
+                        <h4>Theodore Williams</h4>
+                        <p class="founderP card-text">Theodore Williams is a career software engineer whose journey took him through Tech Elevator for training. He now contributes his expertise as a software engineer at Highmark, where he plays a pivotal role in the development of their dental applications, utilized by millions of customers. His experience exemplifies the potential that coding education can unlock, leading to impactful careers in the tech industry.</p>
+                    </section>    
+                </section>
+                
+            </section>
+        
 
         <!-- CONTACT US -->
         <section class="contactUs" id="contactSect">
             <h1>Contact Us</h1>
+            
+            <section class="formSect">
+                <iframe class="contactForm" src="https://docs.google.com/forms/d/e/1FAIpQLSckD0LmW3-wnCevLXKAVg9XnYiOSnSE1DFNvJ_uA9aEnd7Mfg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </section>
+        </section>
+
+        
 
         <!-- FOOTER -->
         <section class="footer">
-            <h1>Footer</h1>
+            <div class="container">
+                <footer class="py-3 my-4">
+                  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#aboutSect" class="nav-link px-2">About</a></li>
+                    <li class="nav-item"><a href="#contactSect" class="nav-link px-2">Contact</a></li>
+                  </ul>
+                  <p class="text-center">© 2023 eSTEAM'd Bytes designed by <a href="https://sway.office.com/TCgCiAS78xbohw8C?ref=Link">Jazzy Engineer</a></p>
+                </footer>
+              </div>
         </section>
     </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
