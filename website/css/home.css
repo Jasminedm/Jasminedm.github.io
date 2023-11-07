@@ -4,97 +4,101 @@
     color: antiquewhite;
 }
 body{
-background-color: rgb(16, 1, 34);
+background-color: rgb(56, 12, 111);
 font-family:'Playfair Display', Tahoma, Geneva, Verdana, sans-serif;
-padding: 0 10%;
+
 }
 
 /* ALL SECTIONS */
 section{
     
 }
-.TopImgGifBanner{
-    
-    
-}   
 
 
 /* NAVBAR */
 .navSect{ 
 background-color: aqua;    
 }
-.navbar{
 
-
-}
-.listSect{
-    display: flex;
-    justify-content: end;
-    padding: 0 20% 0 0;
-}
-.navUL{
-    display: flex;
+/* BANNER */
+.carouselSect{
     
+    margin-bottom: 10%;
 }
-.navList{
-list-style: none;
-
-
-}
-.headImg{
-    width: 25%;
-}
-.navAnchor{
-    width: 50%;
-}
-.aboutContact{
-    
-}
-
 
 
 /* TITLE HEADERS */
 h1{
     text-align: center;
+    margin-bottom: 5%;
 }
 
-/* INTRODUCTION */
-.introduction{
-display: flex;
-justify-content: end;
-padding: 5% 15% 0 5%;
-
+/* ABOUT US / INTRODUCTION */
+.aboutSect{
+    width: 75%;
+    margin: auto;
+    background-color: aqua;
+    border-radius: 1.6%;
 }
-
-.introText{
-width: 50%;
+.aboutTitleImgSect{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5%;
+    padding: 0%;
 }
-.introP{
-    padding: 4% 4% 0 4%;
-    line-height: 2.5;
+.aboutTitleImg{
+    width: 100%;
 }
-/* ABOUT */
-.about{
-
+.aboutPSect{
+    width: 40%;
+    margin: auto;
+    text-align: center;
 }
 .aboutP{
-    padding: 0 8% 4% 8%;
+    color: black;
+}
+#aboutImgSect{
+    max-width: 80%;
+    margin: auto;
+    padding: 2%;
+    margin-bottom: 7%;
+    position: relative;
+    bottom: 20em;
+}
+.aboutImg{
+    width: 100%;
+}
+.aboutP{
+    padding-bottom: 4%;
     text-align: center;
     line-height: 2.5;
 }
-.founderTitle{
+
+/* FOUNDERS */
+.founderTitleImgSect{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.founderTitleImg{
+    width: 100%;
+
+}
+.founderPSect{
+    width: 40%;
+    margin: auto;
     text-align: center;
 }
 .founderImgSect{
 display: flex;
 justify-content: space-between !important;
-padding: 0 5%;
+padding: 0 15% 10% 15%;
 }
 .founderImgSubSect{
 width: 45%;
 text-align: center;
 padding: 5% 0;
-background-color: rgba(0, 64, 255, 0.3);
+background-color: #7ED957;
 }
 .founderImg{
     width: 50%;
@@ -103,13 +107,26 @@ background-color: rgba(0, 64, 255, 0.3);
 .founderP{
     padding: 0 5% 0 5%;
 }
-/* CONTACT US */
-.contactUs{
 
+/* CONTACT US */
+.contactTitleImgSect{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4%;
+}
+.contactTitleImg{
+    width: 100%;
+
+}
+.contactPSect{
+    width: 30%;
+    margin: auto;
+    text-align: center;
 }
 .formSect{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 10%;
 }
 .contactForm{
     width: 36%; 

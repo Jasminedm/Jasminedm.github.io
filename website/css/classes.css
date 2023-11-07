@@ -1,0 +1,27 @@
+*{
+    font-size: 1rem;
+    color: antiquewhite;
+}
+body{
+background-color: rgb(56, 12, 111);
+font-family:'Playfair Display', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* ALL SECTIONS */
+section{
+    
+}
+
+
+/* NAVBAR */
+.navSect{ 
+background-color: aqua;    
+}
+
+/* CALENDAR */
+.calendarSect{
+    width: 82%;
+    margin: auto;
+    padding: 5% 0 10% 0;
+}
