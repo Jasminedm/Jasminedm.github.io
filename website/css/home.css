@@ -4,7 +4,7 @@
     color: antiquewhite;
 }
 body{
-background-color: rgb(56, 12, 111);
+background-color: aqua;
 font-family:'Playfair Display', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -21,11 +21,17 @@ background-color: aqua;
 }
 
 /* BANNER */
-.carouselSect{
-    
-    margin-bottom: 10%;
-}
 
+.carouselBox{
+    --mask:
+          radial-gradient(199.01px at 50% calc(100% - 267.00px),#000 99%,#0000 101%) calc(50% - 178px) 0/356px 100%,
+          radial-gradient(199.01px at 50% calc(100% + 178.00px),#0000 99%,#000 101%) 50% calc(100% - 89px)/356px 100% repeat-x;
+        -webkit-mask: var(--mask);
+                mask: var(--mask);
+    padding-bottom: 5%; 
+    
+      
+}
 
 /* TITLE HEADERS */
 h1{
@@ -35,15 +41,16 @@ h1{
 
 /* ABOUT US / INTRODUCTION */
 .aboutSect{
-    width: 75%;
+    width: 100%;
     margin: auto;
-    background-color: aqua;
-    border-radius: 1.6%;
+    
+                
 }
+
+
 .aboutTitleImgSect{
     width: 100%;
     margin: auto;
-    margin-bottom: 5%;
     padding: 0%;
 }
 .aboutTitleImg{
@@ -75,6 +82,9 @@ h1{
 }
 
 /* FOUNDERS */
+.founderContainer{
+    background-color: purple;
+}
 .founderTitleImgSect{
     width: 80%;
     margin: auto;
